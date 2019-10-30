@@ -35,6 +35,7 @@ class IntervalTest {
         assertFalse(i.isIn(2.5));
     }
 
+
     @org.junit.jupiter.api.Test
     void isNull() {
         Interval i = new Interval();
@@ -91,4 +92,8 @@ class IntervalTest {
         Interval i3 = Interval.intersect(i, i2);
         assertEquals("(2.2,2.5)", i3.toString());
     }
+
+
+
+
 }

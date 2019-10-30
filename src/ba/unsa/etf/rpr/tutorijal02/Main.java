@@ -1,4 +1,6 @@
 package ba.unsa.etf.rpr.tutorijal02;
+import java.util.Scanner ;
+
 
 public class Main {
 
